@@ -5,6 +5,15 @@
   "keywords": ["pi-package", "pi-extension", "tab-title", "ghostty", "tmux"],
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josegarvinvictoria/pi-tab-summary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josegarvinvictoria/pi-tab-summary/issues"
+  },
+  "homepage": "https://github.com/josegarvinvictoria/pi-tab-summary#readme",
+  "files": ["extensions/", "src/", "scripts/", "test/", "README.md", "CHANGELOG.md", "LICENSE"],
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
   },
