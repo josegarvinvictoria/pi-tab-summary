@@ -5,9 +5,9 @@ summary of the task derived from your prompt, plus an OSC 9;4 progress
 indicator while Pi is working.
 
 ```
-working : π · añadir tests para el parser de markdown
-idle    : π ✓ añadir tests para el parser de markdown
-waiting : π ⏎ añadir tests para el parser de markdown   (pi asks you for input)
+working : π · add tests for the markdown parser
+idle    : π ✓ add tests for the markdown parser
+waiting : π ⏎ add tests for the markdown parser   (Pi asks you for input)
 no task : π - <session> - <cwd>
 ```
 
@@ -18,7 +18,7 @@ no task : π - <session> - <cwd>
 - OSC 9;4 indeterminate progress indicator (a bar on the split in Ghostty)
   while a run is active, with keep-alive (Ghostty resets stale progress
   after ~15 s) and cleared on settle.
-- Follow-ups that are short ("dale", "sí") keep the existing summary, so a
+- Follow-ups that are short ("ok", "go on") keep the existing summary, so a
   single task does not clobber its title mid-conversation.
 - `showCwd` option to keep tabs of different projects distinguishable.
 
