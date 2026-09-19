@@ -1,0 +1,20 @@
+{
+  "name": "pi-tab-summary",
+  "version": "0.1.0",
+  "description": "Claude Code-style tab title summary + OSC 9;4 progress for Pi (Ghostty, tmux)",
+  "keywords": ["pi-package", "pi-extension", "tab-title", "ghostty", "tmux"],
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "scripts": {
+    "test": "node test/summarize.test.mjs"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
