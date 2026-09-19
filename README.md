@@ -32,9 +32,9 @@ no task : π - <session> - <cwd>
 ## Install
 
 ```bash
-pi install /path/to/pi-tab-summary        # local checkout
-pi install git:github.com/<user>/pi-tab-summary   # after pushing
-pi -e /path/to/pi-tab-summary             # try without installing
+pi install git:github.com/josegarvinvictoria/pi-tab-summary
+pi install /path/to/pi-tab-summary        # or from a local checkout
+pi -e git:github.com/josegarvinvictoria/pi-tab-summary   # try without installing
 ```
 
 Then restart Pi.
